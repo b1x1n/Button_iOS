@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+//Declaramos todos nuestros objetos
+    IBOutlet UILabel* label;
+    IBOutlet UITextField* text;
+    
 
+}
+
+//Declaramos una accion
+-(IBAction)Click:(id)sender;
+-(IBAction)Click2:(id)sender;
 
 @end
 

@@ -14,6 +14,14 @@
 
 @implementation ViewController
 
+-(IBAction)Click:(id)sender{
+    label.text = @"Hola mundo";
+}
+
+-(IBAction)Click2:(id)sender{
+    label.text = text.text;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
